@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingreso</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <img src="img/huatulco.svg" class="logo"alt="" srcset="">
+      <div class="item">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+          <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+        </svg>
+        <a href="/dashboard.html">Inicio</a>
+      </div>
+      <div class="item active">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+        </svg>
+        <a href="/pago.html">Adeudos</a>
+      </div>
+    </div>
+    <div class="content">      
+      <div class="box">
+        <div class="box-header"><span>Datos del contribuyente</span></div>
+        <div class="datagrid" style="border:none">
+          <table>
+          <thead><tr><th >Contribuyente</th><th># Cuenta catastral</th><th>Dirección</th><th></th></tr></thead>
+          <tbody style="padding:0px">
+          <tr><td>Juan Manuel Carreño García</td><td>2323423424</td><td>DOMICILIO CONOCIDO CON NUMERO QWEQWEQWEQWEQEQWEQWEQWEQ</td><td style="text-align: right;"><button class="btn">Seleccionar</button></td></tr>
+          <tr class="alt"><td>José Eduardo Saavedra Gúzman</td><td>3746183659</td><td>AV. EMILIANO ZAPATA 241, COL. REVOLUCIÓN MEXICANA</td><td style="text-align: right;"><button class="btn">Seleccionar</button></td></tr>
+          <tr><td>Angel Daniel Jímenez Pérez</td><td>9403618364</td><td>AV. FRANCISCO I. MADERO 421, COL. MEXICO	</td><td style="text-align: right;"><button class="btn">Seleccionar</button></td></tr>
+          <tr class="alt"><td>Jessica Montiel Leyva</td><td>3746183659</td><td>DOMICILIO CONOCIDO CON NUMERO QWEQWEQWEQWEQEQWEQWEQWEQ</td><td style="text-align: right;"><button class="btn">Seleccionar</button></td></tr>
+          <tr><td>José Antonio Rodríguez Zepeda</td><td>2323423424</td><td>AV. FLORES MAGÓN 124, COL. REVOLUCIÓN MEXICANA</td><td style="text-align: right;"><button class="btn-info">Seleccionar</button></td></tr>
+          </tbody>
+          </table>
+        </div>
+
+      </div>
+      <div class="box">
+        <div class="box-header"><span>Datos del predio</span></div>
+        <div class="box-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adip, elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua pub.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-header"><span>Adeudos</span></div>
+        <div class="box-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adip, elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua pub.</p>
+        </div>
+      </div>
+      <div class="title">
+        <div class="divider"></div>
+        <h1>Pagar Predial</h1>
+        <div class="divider"></div>
+      </div>
+      <div style="display:flex">
+        <div class="card">
+          <div>
+            <img src="img/chip.png" class="chip">
+          </div>
+          <label>Número de tarjeta</label>
+          <br>
+          <p class="label-info">Ingresa los 16 dígitos de tu tarjeta</p>
+          <input  placeholder="1234 - 6789 - 3912" type="text">
+          <label for="">Nombre</label>
+          <br>
+          <input type="text" placeholder="Nombre en tarjeta">
+          <label for="">Fecha de expiración</label>
+          <div style="display:flex">
+            <input type="text" placeholder="MM">
+            <input type="text" placeholder="AA" style="margin-left:10px">
+          </div>
+          <div style="display:flex;justify-content:end">
+            <div>
+              <label for="">CVV</label>
+              <input type="text" placeholder="CVV" style="margin-left:10px;width:200px">
+            </div>
+            
+          </div>
+
+        </div>
+        <div style="width:50%;padding:10px; text-align:right;display:flex;align-items:flex-end;justify-content: end;">
+            <button class="btn" style="margin-right: 10px;">Pagar Adeudo</button>
+            <button class="btn-info">Descargar Recibos</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

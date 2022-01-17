@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingreso</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <img src="img/huatulco.svg" class="logo"alt="" srcset="">
+      <div class="item active">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+          <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+        </svg>
+        <a href="/dashboard.html">Inicio</a>
+      </div>
+      <div class="item">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+        </svg>
+        <a href="/pago.html">Adeudos</a>
+      </div>
+    </div>
+    <div class="content">
+      <div class="slide">
+        <img src="img/cover.jpg" alt="" class="cover">
+        <div class="slide-nav">
+          <ul>
+          <li class="item show">1</li>
+          <li class="item">2</li>
+          <li class="item">3</li>
+          </ul>
+        </div>
+      </div>
+      <div class="title">
+        <div class="divider"></div>
+        <h1>Pago Predial</h1>
+        <div class="divider"></div>
+      </div>
+      <div class="datagrid">
+        <div class="table-options">
+          <input type="text" name="" id="" placeholder="Buscar">
+          <button class="btn" style="margin-right: 5px;">Buscar</button>
+          <button class="btn-info">Limpiar</button>
+      </div>
+        <table>
+        <thead><tr><th >Contribuyente</th><th># Cuenta catastral</th><th>Dirección</th><th></th></tr></thead>
+        <tbody style="padding:0px">
+        <tr><td>Juan Manuel Carreño García</td><td>2323423424</td><td>DOMICILIO CONOCIDO CON NUMERO QWEQWEQWEQWEQEQWEQWEQWEQ</td><td style="text-align: right;"><button class="btn">Seleccionar</button></td></tr>
+        <tr class="alt"><td>José Eduardo Saavedra Gúzman</td><td>3746183659</td><td>AV. EMILIANO ZAPATA 241, COL. REVOLUCIÓN MEXICANA</td><td style="text-align: right;"><button class="btn">Seleccionar</button></td></tr>
+        <tr><td>Angel Daniel Jímenez Pérez</td><td>9403618364</td><td>AV. FRANCISCO I. MADERO 421, COL. MEXICO	</td><td style="text-align: right;"><button class="btn">Seleccionar</button></td></tr>
+        <tr class="alt"><td>Jessica Montiel Leyva</td><td>3746183659</td><td>DOMICILIO CONOCIDO CON NUMERO QWEQWEQWEQWEQEQWEQWEQWEQ</td><td style="text-align: right;"><button class="btn">Seleccionar</button></td></tr>
+        <tr><td>José Antonio Rodríguez Zepeda</td><td>2323423424</td><td>AV. FLORES MAGÓN 124, COL. REVOLUCIÓN MEXICANA</td><td style="text-align: right;"><button class="btn-info">Seleccionar</button></td></tr>
+        </tbody>
+        </table>
+        <div class="table-nav">
+          <div>
+            <span>Mostrando 1-10</span>
+          </div>
+          <div>
+            <button><<</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>>></button>
+          </div>
+          
+      </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
